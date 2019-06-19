@@ -1,0 +1,203 @@
+.wrapper{
+  box-sizing: border-box;
+  width:100%;
+.header{
+height:35vh;
+width: 100vw;
+padding:7% 10%;
+box-sizing: border-box;
+background-color:rgb(172, 172, 172);
+  .header_left{
+   float: left;
+  
+  }
+  .header_right{
+    float:right;
+    color:rgb(255, 255, 255);
+    .lists{
+      list-style: none;
+      font-size:1.4rem;
+
+      .list{
+        float:left;
+        padding-left:5vw;
+        padding-top:13vh;
+         &:hover{
+          color:black;
+        }
+       & a{
+        text-decoration: none;
+        color:white;
+        &:hover{
+          color:black;
+        } 
+       }
+      }
+    }
+  }
+}
+
+}
+.main{
+  background-color:white;
+
+  .main_top{
+    margin:0 15%;
+  //  background-color: green;
+    height:100vh;
+    .myprofile{
+      & h1{
+      border-bottom: double 7px  rgb(172, 172, 172);;
+      box-sizing: border-box;
+     width:400px;
+     margin: 0 auto;
+     font-size: 3rem;
+     text-align: center;
+     padding-top:10vh;
+     color:rgb(66, 66, 66);
+      }
+    }
+    .my_photo{
+      border-radius: 25%;
+      float: left;
+      margin-top:15vh;
+      
+    }
+    .myprofile-text{
+      float: right;
+      & h2{
+        font-size:2rem;
+        margin-top:5vh;
+        margin-right:30vh;
+        border-bottom: solid 3px rgb(172, 172, 172);
+        color:rgb(66, 66, 66);
+      }
+      .career{
+        width:10%;
+      }
+      .myprofile-text-top{
+        margin-top:3vh;
+      }
+      & h3{
+        font-size:1.5rem;
+        margin-top:3vh;
+        border-bottom: solid 3px rgb(172, 172, 172);
+        width:30%;
+      }
+      & p{
+        font-size:1.2rem;
+        margin-top:1.5vh;
+      }
+    }
+  }
+  .main_content{
+    .WORKS{
+      height:100vh;
+    margin: 0vh 10%;
+  //  background-color: aqua;
+      & h1{
+        border-bottom: double 7px  rgb(172, 172, 172);;
+          box-sizing: border-box;
+         width:400px;
+         margin: 0 auto;
+         font-size: 3rem;
+         text-align: center;
+         padding-top:10vh;
+         color:rgb(66, 66, 66); 
+         letter-spacing: 1rem;
+      }
+     .work_main{
+       margin-top:10vh;
+       margin-left:6vw;
+       .work_content{
+         float: left;
+         height:50vh;
+         width:30%;
+         text-align: center;
+         word-wrap: break-word;
+         background-color:rgb(172, 172, 172);
+         margin:5vh 0.25vw;
+         box-sizing: border-box;
+         padding:5vh 2vw;
+         border-radius: 10%;
+         .work_icon{
+           color:white;
+          }
+          .engineer,.youtube{
+            margin-top:4vh;
+          }
+            h3{
+             font-size:1.5rem;
+             margin:2vh 0;
+             font-weight: bold;
+             color:rgb(66, 66, 66);
+           }
+           p{
+             font-size:1.2rem;
+             color:white;
+           }
+         }
+       }
+     }
+   }
+  .main_buttom{
+    height: 120vh;
+    .portfolio{
+      margin:0 10%;
+       h1{
+      border-bottom: double 7px  rgb(172, 172, 172);
+      box-sizing: border-box;
+     width:400px;
+     margin: 0 auto;
+     font-size: 3rem;
+     text-align: center;
+     padding-top:10vh;
+     color:rgb(66, 66, 66); 
+     letter-spacing: 1rem;
+      }
+      h2 {
+        margin-left:5vw;
+        padding-left:1vw;
+        width:17%;
+        font-size:2rem;
+        margin-top:5vh;
+        margin-right:30vh;
+        border-bottom: solid 3px rgb(172, 172, 172);
+        color:rgb(66, 66, 66);
+      }
+      .image{
+        & img{
+          display: block;
+          margin: 10vh auto;
+          border:solid 2px rgb(172, 172, 172);
+          transition: all 0.6s ease 0s;
+          &:hover{
+            border: dashed 4px rgb(66, 66, 66);
+            cursor: pointer;
+            transform: scale(1.1, 1.1);
+          }
+        }
+
+      }
+      .more{
+        width:20%;
+        position: relative;
+        z-index: 2;
+        background-color: #fff;
+        border: 2px solid rgb(66, 66, 66);
+        color: #333;
+        line-height: 50px;
+        overflow: hidden;
+        float:right;
+        & p{
+          font-size:1.5rem;
+          color:rgb(66, 66, 66);
+          text-align: center;
+        }
+        & :hover{
+          letter-spacing: 5px;
+        }
+      }
+    }
+}
+}

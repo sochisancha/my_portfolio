@@ -1,0 +1,24 @@
+.top-wrapper{
+  width:100%;
+  height:100vh;
+  background-image:url('main.jpg');
+  background-size:cover;
+  .name{
+    color:block;
+    font-size:6rem;
+    text-align: center;
+    padding-top:10vh;
+    font-weight: bold;
+    font-family: 'lato';
+  }
+  .you,.support{
+    color:white;
+    font-size:4rem;
+    margin-left:45vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  }
+  .you{
+    padding-top:15%;
+  }
+}

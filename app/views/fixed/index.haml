@@ -1,0 +1,83 @@
+.wrapper
+  .header
+    .header_left
+      =image_tag 'header.png'
+    .header_right
+      %ul.lists
+        %li.list
+          %a{href: "https://sochisanchan.com/"}
+            Blog
+        %li.list
+          Contact  
+  .main
+    .main_top
+      .myprofile
+        %h1 
+          MY PROFILE
+      = image_tag 'my_phto.jpg',size:"300x300", class: 'my_photo'
+      .myprofile-text
+        %h2
+          SANDA SOICHIRO
+        %h3.career
+          実績
+        %p.myprofile-text-top
+          フリーランスエンジニアを目指して
+        %p
+          TECH::EXPERT 受講。
+        %h3
+          経歴 (学歴)
+        %p.myprofile-text-top
+          小学４年生から中学３年生まで
+        %p
+          関西ジャニーズjr.として活動。
+        %p
+          上宮高校進学後は野球部として
+        %p
+          第９９回全国高校野球選手権大阪大会 BEST4
+        %p
+          現在、関西大学２年生現在休学中。
+    .main_content
+      .WORKS
+        %h1
+          WORKS
+        .work_main
+          .work_content
+            .work_icon
+              %i.fa.fa-wordpress.fa-5x
+            %h3
+              Web制作
+            %p
+              個人サイトからキャンペーンサイト、コーポレートサイトまでレスポンシブ対応サイトを作成します。WordPressやRuby,Ruby on Railsでの作成が可能です。
+          .work_content.engineer-move.data-delighter
+            .work_icon
+              %i.fa.fa-desktop.fa-5x
+            %h3
+              エンジニア案件
+            %p.engineer
+              HTML,CSSやJavaScript,Ruby,Ruby on Railsを用いて、フロントからサーバーサイドの案件も対応可能です。
+              
+          .work_content
+            .work_icon
+              %i.fa.fa-youtube.fa-5x
+            %h3
+              動画編集
+            %p.youtube
+              Youtubeなどの動画編集を　委託案件としてAdobe Premiere Proを用いて編集いたします。
+    .main_buttom
+      .portfolio
+        %h1
+          PORTFOLIO 
+        .chat-space
+        %h2
+          chat-space
+        .image
+          %a{href: "http://54.65.47.167/",alt:"" ,class:"hover10"}
+            = image_tag 'chatspace.jpg',size:"645x350", class: 'phat-space_img'
+        .more
+          %p
+            more... 
+          
+            
+            
+        
+  .footer
