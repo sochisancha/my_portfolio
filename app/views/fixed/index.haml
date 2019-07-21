@@ -1,11 +1,13 @@
 .wrapper
   .header
     .header_left
-      =image_tag 'header.png'
+      =image_tag 'header.png',class:'site_name'
+      %h2
+        So-chi Portfolio
     .header_right
       %ul.lists
         %li.list
-          %a{href: "https://sochisanchan.com/"}
+          %a{href: "https://sochisanchan.com/",class:"blog"}
             Blog
         %li.list
           Contact  
@@ -14,7 +16,14 @@
       .myprofile
         %h1 
           MY PROFILE
-      = image_tag 'my_phto.jpg',size:"300x300", class: 'my_photo'
+      = image_tag 'my_phto.jpg',size:"300x300", class:'my_photo'
+      .phone-image
+        %h3
+          あなたの創りたい
+        %h3.support_you
+          を応援します。
+
+
       .myprofile-text
         %h2
           SANDA SOICHIRO

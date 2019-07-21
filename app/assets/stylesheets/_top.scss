@@ -1,4 +1,6 @@
-.wrapper{
+
+@media screen and (min-width: 767px) { 
+  .wrapper{
   box-sizing: border-box;
   width:100%;
 .header{
@@ -9,7 +11,9 @@ box-sizing: border-box;
 background-color:rgb(172, 172, 172);
   .header_left{
    float: left;
-  
+   h2{
+     display: none;
+   }
   }
   .header_right{
     float:right;
@@ -61,7 +65,9 @@ background-color:rgb(172, 172, 172);
       border-radius: 25%;
       float: left;
       margin-top:15vh;
-      
+    }
+    .phone_my_photo{
+      display: none;
     }
     .myprofile-text{
       float: right;
@@ -73,7 +79,8 @@ background-color:rgb(172, 172, 172);
         color:rgb(66, 66, 66);
       }
       .career{
-        width:10%;
+        width:20%;
+        text-align: center;
       }
       .myprofile-text-top{
         margin-top:3vh;
@@ -83,6 +90,7 @@ background-color:rgb(172, 172, 172);
         margin-top:3vh;
         border-bottom: solid 3px rgb(172, 172, 172);
         width:30%;
+        text-align: center;
       }
       & p{
         font-size:1.2rem;
@@ -200,4 +208,98 @@ background-color:rgb(172, 172, 172);
       }
     }
 }
+}
+.text-emo{
+  display: none;
+}
+}
+@media screen and (max-width: 767px ){
+
+}
+
+
+
+@media screen and (max-width:479px){
+  .wrapper{
+    height: 100vh;
+    .header{
+      height:150px;
+      border-bottom: double 3px  rgb(172, 172, 172);
+      .header_left{
+        h2{
+          font-weight: bold;
+          font-size: 2rem;
+          font-family: fantasy;
+          display: block;
+          height:80px;
+          margin: 0 auto;
+          text-align: center;
+          padding-top:20px;
+          box-sizing: border-box;
+        }
+        .site_name{
+          display: none;
+        }
+      }
+      .header_right{
+        height:50px;
+        .lists{
+          width:85%;
+          margin:0 auto;
+          height:50px;
+          .list{
+            font-size: 1.5rem;
+            color: #333;
+            float: left;
+            padding:5px 40px;
+            box-sizing: border-box;
+            font-weight: 400;
+            .blog{
+              text-decoration: none;
+              color: #333;
+              font-weight: 400;
+            }
+          }
+          li:hover{
+            border: double 1px #333;
+          }
+        }
+      }
+    }
+  }
+  .main{
+  text-align: center;
+    .main-top{
+      .myprofile{
+        border-bottom: double 3px  rgb(172, 172, 172);
+          box-sizing: border-box;
+        font-size: 1.5rem;
+        text-align: center;
+        color:#333;
+        width:80%;
+        margin:0 auto;
+        padding-top:50px;
+      } 
+    }
+        .phone-image{
+          height:300px;
+          background-image:url('main.jpg');
+          background-size: 400px 300px;
+          h3{
+            -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+            float: right;
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 1.5rem;
+            margin-right:10px;
+          }
+          .support_you{
+            margin-top: 100px;
+          }
+        }
+  }
+  .my_photo{
+  display: none;
+  }
 }

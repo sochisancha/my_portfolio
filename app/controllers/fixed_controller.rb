@@ -5,5 +5,7 @@ class FixedController < ApplicationController
  end
  def top
  end
+ def test
+ end
 
 end
