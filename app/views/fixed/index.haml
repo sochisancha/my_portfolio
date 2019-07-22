@@ -14,16 +14,17 @@
   .main
     .main_top
       .myprofile
-        %h1 
+        %h1.profile_title
           MY PROFILE
       = image_tag 'my_phto.jpg',size:"300x300", class:'my_photo'
       .phone-image
-        %h3
-          あなたの創りたい
-        %h3.support_you
-          を応援します。
-
-
+        .text-emo
+          %h3
+            あなたの創りたい
+          %h3.support_you
+            を応援します。
+      %h1.profile_title_phone
+        MY PROFILE
       .myprofile-text
         %h2
           SANDA SOICHIRO
@@ -65,13 +66,13 @@
             %p.engineer
               HTML,CSSやJavaScript,Ruby,Ruby on Railsを用いて、フロントからサーバーサイドの案件も対応可能です。
               
-          .work_content
+          .work_content.youtube_icon
             .work_icon
               %i.fa.fa-youtube.fa-5x
             %h3
               動画編集
             %p.youtube
-              Youtubeなどの動画編集を　委託案件としてAdobe Premiere Proを用いて編集いたします。
+              Youtubeなどの動画編集を 委託案件としてAdobe Premiere Proを用いて編集いたします。
     .main_buttom
       .portfolio
         %h1
@@ -82,6 +83,9 @@
         .image
           %a{href: "http://54.65.47.167/",alt:"" ,class:"hover10"}
             = image_tag 'chatspace.jpg',size:"645x350", class: 'phat-space_img'
+        .image_phone
+          %a{href: "http://54.65.47.167/",alt:"" ,class:"hover10"}
+            = image_tag 'chatspace.jpg',size:"300x150", class: 'phat-space_img'
         .more
           %p
             more... 
