@@ -45,6 +45,25 @@
 }
 
 }
+.emo-image{
+  height:800px;
+  background-image:url("main.jpg");
+  background-size: cover;
+  h3{
+     -ms-writing-mode: tb-lr;
+     writing-mode: vertical-lr;
+     float: right;
+     color: white;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 3.5rem;
+     padding-right:100px;
+     margin:50px;
+  }
+  .support_you_laptop{
+    padding-top:150px;
+  }
+
+}
 .main{
   background-color:white;
 
@@ -434,5 +453,8 @@
   }
   .my_photo{
   display: none;
+  }
+  .emo-image{
+    display: none;
   }
 }
